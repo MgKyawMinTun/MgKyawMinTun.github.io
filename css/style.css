@@ -651,6 +651,8 @@ a,p,h2,h3,h5,h6,button,.title,span{
 	display: block;
 	padding: 7.5px 0;
 	text-align: center;
+	/* text-shadow: 1px 1px 1px rgb(0, 0, 0); */
+	text-shadow: 1px 1px 1px rgb(0 0 0 / 90%);
 }
 
 
@@ -1980,12 +1982,12 @@ a,p,h2,h3,h5,h6,button,.title,span{
 	}
 
 	.mv_sec .my_name .social{
-		margin-bottom: 5vw;
+		margin-bottom: 10vw;
 	}
 
 	.mv_sec .my_name .social a i{
 		font-size: 5vw;
-		margin-right: 2vw;
+		margin-right: 4vw;
 	}
 
 	.mv_sec .my_name .btn{
