@@ -199,17 +199,42 @@ a,p,h2,h3,h5,h6,button,.title,span{
 	margin: 0 7%;
 }
 
-.mv_sec .my_name h1{
+.mv_sec .my_name h1,
+.mv_sec .my_name h1 span{
 	font-family: Harlow-Solid-Italic; 
 	color: #fff;
 	font-size: 60px;
 	font-weight: normal;
 	line-height: 1.3;
 	text-shadow: 4px 2px 6px rgba(0, 0, 0, 0.7);
+	margin-bottom: 30px;
 }
 
-.mv_sec .my_name h1:nth-child(2){
-	margin-bottom: 30px;
+.typing{
+	position: relative;
+	margin-left: 10px;
+
+}
+
+.typing::after{
+	content: "";
+	position: absolute;
+	top: 25px;
+	right: -10px;
+	width: 2px;
+	height: 38px;
+	border-right: 2px solid #fff;
+	animation: blank 0.5s infinite ease;
+}
+
+@keyframes blank{
+	0%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
 }
 
 .mv_sec .my_name p{
@@ -1463,11 +1488,16 @@ a,p,h2,h3,h5,h6,button,.title,span{
 
 
 	/*-------------MV SEC----------------*/
-	.mv_sec .my_name p {
+	.mv_sec .my_name h1,
+	.mv_sec .my_name h1 span{
+		font-size: 50px;
+	}
+
+	.mv_sec .my_name p{
 	    max-width: 500px;
 	}
 
-	.mv_sec .profile {
+	.mv_sec .profile{
 	    top: 30%;
 	    width: 350px;
 	    height: 220px;
@@ -1543,11 +1573,9 @@ a,p,h2,h3,h5,h6,button,.title,span{
 
 
 	/*---------------MV SEC---------------*/
-	.mv_sec .my_name h1{
+	.mv_sec .my_name h1,
+	.mv_sec .my_name h1 span{
 		font-size: 5vw;
-	}
-
-	.mv_sec .my_name h1:nth-child(2){
 		margin-bottom: 6vw;
 	}
 
@@ -1947,11 +1975,6 @@ a,p,h2,h3,h5,h6,button,.title,span{
 		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 	}
 
-/* 	.header i.fa-bars:hover{
-		opacity: 0.6;
-		transition: .3s linear;
-	} */
-
 
 
 	/*-------------MV SEC----------------*/
@@ -1966,11 +1989,9 @@ a,p,h2,h3,h5,h6,button,.title,span{
 		z-index: 8888;
 	}
 
-	.mv_sec .my_name h1{
+	.mv_sec .my_name h1,
+	.mv_sec .my_name h1 span{
 		font-size: 9vw;
-	}
-
-	.mv_sec .my_name h1:nth-child(2){
 		margin-bottom: 10vw;
 	}
 
