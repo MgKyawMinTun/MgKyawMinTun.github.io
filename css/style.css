@@ -1493,6 +1493,10 @@ a,p,h2,h3,h5,h6,button,.title,span{
 		font-size: 50px;
 	}
 
+	.typing::after{
+		top: 13px;
+	}
+
 	.mv_sec .my_name p{
 	    max-width: 500px;
 	}
@@ -1577,6 +1581,11 @@ a,p,h2,h3,h5,h6,button,.title,span{
 	.mv_sec .my_name h1 span{
 		font-size: 5vw;
 		margin-bottom: 6vw;
+	}
+
+	.typing::after{
+		top: 13px;
+		height: 25px;
 	}
 
 	.mv_sec .my_name p{
@@ -1995,6 +2004,11 @@ a,p,h2,h3,h5,h6,button,.title,span{
 		margin-bottom: 10vw;
 	}
 
+	.typing::after{
+		top: 3vw;
+		height: 6vw;
+	}
+
 	.mv_sec .my_name p{
 		font-size: 3.5vw;
 		width: 100%;
@@ -2062,7 +2076,7 @@ a,p,h2,h3,h5,h6,button,.title,span{
 
 	.about_sec .my_self .content{
 		width: 100%;
-		padding: 30px 10px;
+		padding: 30px 0px;
 	}
 
 	.about_sec .my_self .content > p.title{
