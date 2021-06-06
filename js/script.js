@@ -85,15 +85,9 @@ function linkAction(){
 	navLink.forEach(n => n.classList.remove('active'));
     this.classList.add('active');
     nav.classList.remove('show');
-    tgl.classList.toggle('bx-x');
+    // tgl.classList.toggle('bx-x');
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
-
-
-
-
-
-
 
 
 

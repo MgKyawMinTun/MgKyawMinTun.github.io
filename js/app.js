@@ -16,7 +16,7 @@ download.addEventListener('click', downloadCall);
 function downloadCall(){
 	setTimeout(() => {
 		Object.assign(document.createElement('a'),{
-			href: 'https://drive.google.com/file/d/1bDhNCyQ37IBCPgRu1AO30EhQuoz49bl1/view?usp=sharing'
+			href: 'https://drive.google.com/file/d/10cPjHxL_gpPEWWfxuHOyk9SgrLDjFVqx/view?usp=sharing'
 		}).click();
 	}, 1000);
 }
